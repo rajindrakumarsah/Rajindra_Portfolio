@@ -1,0 +1,105 @@
+have_func: checking for fdatasync() in unistd.h... -------------------- no
+
+PATH=".;C:/Ruby32-x64/lib;C:\Ruby32-x64\bin;C:\Ruby32-x64\msys64\ucrt64\bin;C:\Ruby32-x64\msys64\usr\bin;C:\Users\rajin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\rajin\bin;C:\Ruby32-x64\bin;C:\Program Files\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python37\Scripts;C:\Program Files\Python37;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\CodeBlocks\MinGW\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Windows\System32\cmd.exe;C:\Program Files\nodejs;C:\Users\rajin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\MongoDB Atlas CLI;C:\Program Files\Git\cmd;C:\Python311\Lib;C:\Users\rajin\anaconda3\Library\bin;C:\Users\rajin\AppData\Local\Programs\Python\Python312;C:\Users\rajin\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Program Files (x86)\Yarn\bin;C:\Program Files\heroku\bin;C:\Program Files\PostgreSQL\16\bin;C:\Ruby32-x64\bin;C:\Program Files\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python37\Scripts;C:\Program Files\Python37;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\CodeBlocks\MinGW\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Windows\System32\cmd.exe;C:\Program Files\nodejs;C:\Users\rajin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\MongoDB Atlas CLI;C:\Program Files\Git\cmd;C:\Python311\Lib;C:\Users\rajin\anaconda3\Library\bin;C:\Users\rajin\AppData\Local\Programs\Python\Python312;C:\Users\rajin\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Program Files (x86)\Yarn\bin;C:\Program Files\heroku\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -o conftest.exe -IC:/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Ruby32-x64/include/ruby-3.2.0 -I.  -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby32-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby320  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+PATH=".;C:/Ruby32-x64/lib;C:\Ruby32-x64\bin;C:\Ruby32-x64\msys64\ucrt64\bin;C:\Ruby32-x64\msys64\usr\bin;C:\Users\rajin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\rajin\bin;C:\Ruby32-x64\bin;C:\Program Files\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python37\Scripts;C:\Program Files\Python37;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\CodeBlocks\MinGW\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Windows\System32\cmd.exe;C:\Program Files\nodejs;C:\Users\rajin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\MongoDB Atlas CLI;C:\Program Files\Git\cmd;C:\Python311\Lib;C:\Users\rajin\anaconda3\Library\bin;C:\Users\rajin\AppData\Local\Programs\Python\Python312;C:\Users\rajin\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Program Files (x86)\Yarn\bin;C:\Program Files\heroku\bin;C:\Program Files\PostgreSQL\16\bin;C:\Ruby32-x64\bin;C:\Program Files\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python37\Scripts;C:\Program Files\Python37;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\CodeBlocks\MinGW\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Windows\System32\cmd.exe;C:\Program Files\nodejs;C:\Users\rajin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\MongoDB Atlas CLI;C:\Program Files\Git\cmd;C:\Python311\Lib;C:\Users\rajin\anaconda3\Library\bin;C:\Users\rajin\AppData\Local\Programs\Python\Python312;C:\Users\rajin\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Program Files (x86)\Yarn\bin;C:\Program Files\heroku\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -o conftest.exe -IC:/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Ruby32-x64/include/ruby-3.2.0 -I.  -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby32-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby320  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c: In function 't':
+conftest.c:18:57: error: 'fdatasync' undeclared (first use in this function)
+   18 | int t(void) { void ((*volatile p)()); p = (void ((*)()))fdatasync; return !p; }
+      |                                                         ^~~~~~~~~
+conftest.c:18:57: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <unistd.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))fdatasync; return !p; }
+/* end */
+
+PATH=".;C:/Ruby32-x64/lib;C:\Ruby32-x64\bin;C:\Ruby32-x64\msys64\ucrt64\bin;C:\Ruby32-x64\msys64\usr\bin;C:\Users\rajin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\rajin\bin;C:\Ruby32-x64\bin;C:\Program Files\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python37\Scripts;C:\Program Files\Python37;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\CodeBlocks\MinGW\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Windows\System32\cmd.exe;C:\Program Files\nodejs;C:\Users\rajin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\MongoDB Atlas CLI;C:\Program Files\Git\cmd;C:\Python311\Lib;C:\Users\rajin\anaconda3\Library\bin;C:\Users\rajin\AppData\Local\Programs\Python\Python312;C:\Users\rajin\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Program Files (x86)\Yarn\bin;C:\Program Files\heroku\bin;C:\Program Files\PostgreSQL\16\bin;C:\Ruby32-x64\bin;C:\Program Files\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python37\Scripts;C:\Program Files\Python37;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\CodeBlocks\MinGW\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Windows\System32\cmd.exe;C:\Program Files\nodejs;C:\Users\rajin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\MongoDB Atlas CLI;C:\Program Files\Git\cmd;C:\Python311\Lib;C:\Users\rajin\anaconda3\Library\bin;C:\Users\rajin\AppData\Local\Programs\Python\Python312;C:\Users\rajin\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Program Files (x86)\Yarn\bin;C:\Program Files\heroku\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -o conftest.exe -IC:/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Ruby32-x64/include/ruby-3.2.0 -I.  -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby32-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby320  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+C:/Ruby32-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\rajin\AppData\Local\Temp\ccecH2SK.o:conftest.c:(.text+0x5): undefined reference to `fdatasync'
+collect2.exe: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <unistd.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: extern void fdatasync();
+19: int t(void) { fdatasync(); return 0; }
+/* end */
+
+--------------------
+
+block in append_cflags: checking for whether -O3 is accepted as CFLAGS... -------------------- yes
+
+PATH=".;C:/Ruby32-x64/lib;C:\Ruby32-x64\bin;C:\Ruby32-x64\msys64\ucrt64\bin;C:\Ruby32-x64\msys64\usr\bin;C:\Users\rajin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\rajin\bin;C:\Ruby32-x64\bin;C:\Program Files\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python37\Scripts;C:\Program Files\Python37;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\CodeBlocks\MinGW\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Windows\System32\cmd.exe;C:\Program Files\nodejs;C:\Users\rajin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\MongoDB Atlas CLI;C:\Program Files\Git\cmd;C:\Python311\Lib;C:\Users\rajin\anaconda3\Library\bin;C:\Users\rajin\AppData\Local\Programs\Python\Python312;C:\Users\rajin\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Program Files (x86)\Yarn\bin;C:\Program Files\heroku\bin;C:\Program Files\PostgreSQL\16\bin;C:\Ruby32-x64\bin;C:\Program Files\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python37\Scripts;C:\Program Files\Python37;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\CodeBlocks\MinGW\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Windows\System32\cmd.exe;C:\Program Files\nodejs;C:\Users\rajin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\MongoDB Atlas CLI;C:\Program Files\Git\cmd;C:\Python311\Lib;C:\Users\rajin\anaconda3\Library\bin;C:\Users\rajin\AppData\Local\Programs\Python\Python312;C:\Users\rajin\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Program Files (x86)\Yarn\bin;C:\Program Files\heroku\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -IC:/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Ruby32-x64/include/ruby-3.2.0 -I.  -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64 -O3 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+--------------------
+
+block in append_cflags: checking for whether -std=c99 is accepted as CFLAGS... -------------------- yes
+
+PATH=".;C:/Ruby32-x64/lib;C:\Ruby32-x64\bin;C:\Ruby32-x64\msys64\ucrt64\bin;C:\Ruby32-x64\msys64\usr\bin;C:\Users\rajin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\rajin\bin;C:\Ruby32-x64\bin;C:\Program Files\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python37\Scripts;C:\Program Files\Python37;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\CodeBlocks\MinGW\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Windows\System32\cmd.exe;C:\Program Files\nodejs;C:\Users\rajin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\MongoDB Atlas CLI;C:\Program Files\Git\cmd;C:\Python311\Lib;C:\Users\rajin\anaconda3\Library\bin;C:\Users\rajin\AppData\Local\Programs\Python\Python312;C:\Users\rajin\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Program Files (x86)\Yarn\bin;C:\Program Files\heroku\bin;C:\Program Files\PostgreSQL\16\bin;C:\Ruby32-x64\bin;C:\Program Files\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python37\Scripts;C:\Program Files\Python37;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\CodeBlocks\MinGW\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Windows\System32\cmd.exe;C:\Program Files\nodejs;C:\Users\rajin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\MongoDB Atlas CLI;C:\Program Files\Git\cmd;C:\Python311\Lib;C:\Users\rajin\anaconda3\Library\bin;C:\Users\rajin\AppData\Local\Programs\Python\Python312;C:\Users\rajin\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Python312;C:\Program Files\Python312\Scripts;C:\Program Files (x86)\Yarn\bin;C:\Program Files\heroku\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" "gcc -IC:/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Ruby32-x64/include/ruby-3.2.0 -I.  -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -O3 -m64 -std=c99 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+--------------------
+

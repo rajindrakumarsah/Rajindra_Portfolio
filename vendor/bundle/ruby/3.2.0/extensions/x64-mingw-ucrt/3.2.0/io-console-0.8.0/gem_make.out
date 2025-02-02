@@ -1,0 +1,30 @@
+current directory: C:/rajindraportfolio/portfolio/vendor/bundle/ruby/3.2.0/gems/io-console-0.8.0/ext/io/console
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+checking for rb_syserr_fail_str(0, Qnil)... yes
+checking for rb_interned_str_cstr()... yes
+checking for rb_io_path()... no
+checking for rb_io_descriptor()... yes
+checking for rb_io_get_write_io()... yes
+checking for rb_io_closed_p()... no
+checking for rb_io_open_descriptor()... no
+checking for rb_ractor_local_storage_value_newkey()... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+checking for ttyname_r()... no
+checking for ttyname()... no
+creating Makefile
+
+current directory: C:/rajindraportfolio/portfolio/vendor/bundle/ruby/3.2.0/gems/io-console-0.8.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20250201-25836-9f1n8x sitelibdir\=./.gem.20250201-25836-9f1n8x clean
+
+current directory: C:/rajindraportfolio/portfolio/vendor/bundle/ruby/3.2.0/gems/io-console-0.8.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20250201-25836-9f1n8x sitelibdir\=./.gem.20250201-25836-9f1n8x
+generating console-x64-mingw-ucrt.def
+compiling console.c
+linking shared-object io/console.so
+
+current directory: C:/rajindraportfolio/portfolio/vendor/bundle/ruby/3.2.0/gems/io-console-0.8.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20250201-25836-9f1n8x sitelibdir\=./.gem.20250201-25836-9f1n8x install
+/usr/bin/install -c -m 0755 console.so ./.gem.20250201-25836-9f1n8x/io
+
+current directory: C:/rajindraportfolio/portfolio/vendor/bundle/ruby/3.2.0/gems/io-console-0.8.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20250201-25836-9f1n8x sitelibdir\=./.gem.20250201-25836-9f1n8x clean

@@ -1,0 +1,22 @@
+current directory: C:/rajindraportfolio/portfolio/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+checking for fdatasync() in unistd.h... no
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: C:/rajindraportfolio/portfolio/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250201-25836-cbqivc sitelibdir\=./.gem.20250201-25836-cbqivc clean
+
+current directory: C:/rajindraportfolio/portfolio/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250201-25836-cbqivc sitelibdir\=./.gem.20250201-25836-cbqivc
+generating bootsnap-x64-mingw-ucrt.def
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: C:/rajindraportfolio/portfolio/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250201-25836-cbqivc sitelibdir\=./.gem.20250201-25836-cbqivc install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20250201-25836-cbqivc/bootsnap
+
+current directory: C:/rajindraportfolio/portfolio/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250201-25836-cbqivc sitelibdir\=./.gem.20250201-25836-cbqivc clean
